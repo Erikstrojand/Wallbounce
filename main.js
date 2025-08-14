@@ -73,7 +73,7 @@ function generatePlatforms() {
     const x = Math.random() * (canvas.width - PLATFORM_WIDTH - 2 * WALL_LEFT) + WALL_LEFT;
     let moving = false;
     let dx = 0;
-    if (platforms.length >= 99 && Math.random() < 0.3) {
+    if (platforms.length >= 49 && Math.random() < 0.3) {
       moving = true;
       dx = (Math.random() > 0.5 ? 1 : -1) * (1 + Math.random() * 2);
     }
